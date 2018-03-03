@@ -1,0 +1,44 @@
+{
+  "name": "vue-login",
+  "version": "1.0.0",
+  "description": "Simple auth vue-application",
+  "main": "index.js",
+  "scripts": {
+    "watch": "./node_modules/.bin/webpack -w",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "auth"
+  ],
+  "author": "Erzed",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "connect": "^3.6.6",
+    "connect-history-api-fallback": "^1.5.0",
+    "css-loader": "^0.28.10",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.1.1",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.5.13",
+    "vue-axios": "^2.0.2",
+    "vue-history-api-fallback": "^1.0.3",
+    "vue-loader": "^14.1.1",
+    "vue-resource": "^1.4.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^3.11.0"
+  }
+}

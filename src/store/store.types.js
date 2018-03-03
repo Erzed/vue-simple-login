@@ -1,0 +1,8 @@
+export const LOGIN = 'login'
+export const LOGOUT = 'logout'
+export const REGISTER = 'register'
+export const CHECK_AUTH = 'checkAuth'
+export const UPDATE_USER = 'updateUser'
+export const SET_AUTH = 'setAuth'
+export const CLEAR_AUTH = 'clearAuth'
+export const SET_ERROR = 'setError'
